@@ -116,3 +116,84 @@ button:focus {
 .log {
   font-size: 28px !important;
 }
+/* Search&Social */
+.nav2 {
+  right: 5px;
+}
+.input-container {
+  position: relative;
+  display: flex;
+  height: 2.4rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.05);
+}
+.input-container input {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgb(176 190 197);
+  background-color: transparent;
+  padding: 0.625rem 70px 0.625rem 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+  color: rgb(69 90 100);
+  outline: none;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-container input:focus {
+  border: 1px solid #2d2d2d;
+}
+.invite-btn {
+  position: absolute;
+  width: 55px;
+  right: 6px;
+  top: 4px;
+  bottom: 4px;
+  z-index: 10;
+  border-radius: 4px;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.4s ease;
+}
+.invite-btn:hover {
+  right: 4px;
+  top: 4px;
+  bottom: 4px;
+  border-radius: 4px;
+}
+.input-container input:placeholder-shown ~ .invite-btn {
+  pointer-events: none;
+  background-color: #000000;
+  opacity: 0.8;
+}
+.navIcons {
+  font-size: 26px !important;
+  vertical-align: -14px;
+  color: #000000;
+  transition: all 0.4s;
+  padding-right: 2px;
+}
+.navIcons:hover {
+  transform: scale(1.2);
+}
+.shopping {
+  font-size: 26px !important;
+  vertical-align: -14px;
+  color: #000000;
+  transition: all 0.4s;
+}
+.shopping:hover {
+  transform: translate(6px);
+}
