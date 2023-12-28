@@ -305,3 +305,49 @@ button:focus {
 font-family: bisonRI;
 color: black;
 }
+/* footer */
+.footerWrapper {
+  background-color: #161616;
+}
+.footerWrapper .row .Column1InFooter ul a li,
+.footerWrapper .row .otherColumnsInFooter ul a {
+  white-space: nowrap;
+}
+.footerWrapper .row .Column1InFooter ul a li,
+.footerWrapper .row .otherColumnsInFooter ul a:first-child li {
+  color: rgb(213, 213, 213);
+  font-weight: 900;
+  line-height: 30px;
+  transition: all 0.4s;
+}
+.footerWrapper .row .otherColumnsInFooter ul a:not(:first-child) li {
+  color: rgb(213, 213, 213);
+  font-weight: 500;
+  line-height: 30px;
+  transition: all 0.4s;
+}
+.footerWrapper .row div ul a li:hover {
+  transform: translate(2px);
+}
+.footerIconWrapper {
+  padding-right: 40px;
+  white-space: nowrap;
+}
+.footerIconWrapper a {
+  height: 36px;
+  transition: all 0.4s;
+}
+.footerIconWrapper a:hover {
+  transform: scale(1.1);
+}
+.footerIconWrapper a i {
+  font-size: 40px;
+  padding-left: 4px;
+}
+.Terms ul a li {
+  color: rgb(213, 213, 213);
+  padding-right: 8px;
+  font-weight: 300;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
