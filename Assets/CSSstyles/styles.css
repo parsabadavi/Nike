@@ -484,3 +484,152 @@ color: black;
     opacity: 0;
   }
 }
+/* mediaQ */
+@media screen and (max-width: 768px) {
+  /* social&Search */
+  .socialNav {
+    display: none;
+  }
+
+  /* shoe card */
+  .owl-item.active.center,
+  .owl-item.cloned,
+  .owl-item.active,
+  .owl-item {
+    margin-top: -12px !important;
+  }
+  /* webIntro */
+  .webIntro {
+    padding-top: 2px !important;
+  }
+  .webIntro h3 {
+    font-size: 30px !important;
+    color: #90b5cc;
+  }
+  .webIntro .buttons button {
+    font-size: 10px !important;
+    background-color: #90b5cc;
+    border: 1px solid #90b5cc;
+    padding: 4px 6px !important;
+    margin: 0px !important;
+  }
+  .webIntro .buttons button:hover {
+    background-color: #76a2be;
+  }
+
+    /* offer section */
+  .offerWrapper {
+    margin-top: 0 !important;
+  }
+  .offer div {
+    margin-top: 20px;
+    height: 34vh;
+  }
+  .offer .row img {
+    margin-right: -32px;
+  }
+  .offertext h3 {
+    font-size: 30px !important;
+    white-space: nowrap;
+    margin-top: 8px;
+    margin-left: -24px;
+  }
+  .offertext p span {
+    display: none;
+  }
+
+  /* shirt section */
+  .row .card-custom:nth-child(1),
+  .row .card-custom:nth-child(2) {
+    margin-top: 28px !important;
+  }
+  .row .card-custom:nth-child(3),
+  .row .card-custom:nth-child(4) {
+    margin: 10px 0 !important;
+  }
+  .row .card-custom:nth-child(5),
+  .row .card-custom:nth-child(6) {
+    margin-bottom: 28px !important;
+  }
+
+  /* footer */
+  .footerIconWrapper {
+    padding-left: 38px;
+    padding-right: 0;
+  }
+  .footerIconWrapper a i {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+    /* webIntro */
+  .webIntro {
+    padding-top: 16px !important;
+    height: 12vh;
+  }
+  .webIntro h3 {
+    font-size: 50px;
+    line-height: 40px;
+    color: #90b5cc;
+  }
+  .webIntro p {
+    display: none;
+  }
+  .webIntro .buttons button {
+    font-size: 18px;
+    background-color: #90b5cc;
+    border: 1px solid #90b5cc;
+    padding: 8px 12px;
+    margin: 4px;
+  }
+  .webIntro .buttons button:hover {
+    background-color: #76a2be;
+  }
+  .owl-item.active.center,
+  .owl-item.cloned,
+  .owl-item.active,
+  .owl-item {
+    margin-top: 8px;
+  }
+
+  /* offer section */
+  .offer div {
+    padding: 10px 4px;
+    height: 38vh;
+  }
+  .offertext h3 {
+    font-size: 34px;
+    margin-top: 8px;
+  }
+  .offertext p {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+    /* shirt card section */
+  .card-custom .card-body .card-title h4 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card-custom .card-body .card-subtitle div span,
+  .card-custom .card-body .card-subtitle div i {
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  /* footer */
+  .footerWrapper .row .Column1InFooter ul a li,
+  .footerWrapper .row .otherColumnsInFooter ul a:first-child li,
+  .footerWrapper .row .otherColumnsInFooter ul a:not(:first-child) li {
+    line-height: 24px;
+  }
+  .footerIconWrapper {
+    padding-left: 38px;
+    padding-right: 0;
+  }
+  .footerIconWrapper a i {
+    padding: 0;
+  }
+  .headerWrapper .row div:nth-child(2) {
+    display: none;
+  }
+}
