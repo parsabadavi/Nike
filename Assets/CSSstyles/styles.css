@@ -264,3 +264,39 @@ button:focus {
 .offertext p span {
   display: block;
 }
+/* shirtCardStyles */
+.card-custom {
+  border: 0;
+}
+.card-custom a {
+  border-radius: 10px;
+  box-shadow: -5px 5px 10px 0 rgb(198, 198, 198);
+}
+.card-custom a div h6 span {
+  font-weight: 700;
+}
+.card-custom .card-body .card-title h4 {
+  font-weight: 400;
+}
+.card-custom .card-body .card-subtitle div i {
+  background-color: rgb(30, 30, 30);
+  padding: 0 1rem;
+  border-radius: 12px 6px;
+  font-size: 14px;
+  transition: all.4s;
+}
+.card-custom .card-body .card-subtitle div i:hover {
+  background-color: rgb(0, 0, 0);
+  padding: 0 0.8rem;
+}
+.row .card-custom:nth-child(1),
+.row .card-custom:nth-child(2),
+.row .card-custom:nth-child(3) {
+  margin-top: 28px !important;
+}
+.row .card-custom:nth-child(4),
+.row .card-custom:nth-child(5),
+.row .card-custom:nth-child(6) {
+  margin-bottom: 28px !important;
+  margin-top: 12px !important;
+}
