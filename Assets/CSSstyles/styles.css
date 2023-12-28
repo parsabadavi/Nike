@@ -242,3 +242,25 @@ button:focus {
 .shadow {
   box-shadow: 0px 0px 8px 0px rgb(123, 123, 123);
 }
+/* offerSection */
+.offer div {
+  padding: 10px 4px;
+  height: 42vh;
+}
+.offer .row {
+  background-color: #c7372e;
+  overflow: hidden;
+  padding: 0;
+}
+.offertext {
+  color: white;
+  text-align: end;
+}
+.offertext h3 {
+  font-family: helveticaRoman;
+  font-size: 50px;
+  margin-top: 14px;
+}
+.offertext p span {
+  display: block;
+}
